@@ -1,0 +1,46 @@
+Resposta 1:
+Para calcular o tempo total de transporte, precisamos primeiro calcular a quantidade de viagens que o caminhão fará para transportar toda a areia.
+
+1. Cálculo da capacidade do caminhão:
+- Volume do caminhão: 10m x 2,5m x 2,5m = 62,5 m³
+- Peso máximo que o caminhão pode transportar: 62,5 m³ x 1,75 ton/m³ = 109,4 ton
+
+2. Cálculo da quantidade de viagens:
+- Quantidade de areia a ser transportada: 175 ton
+- Quantidade de areia por viagem: 109,4 ton
+- Quantidade de viagens: 175 ton / 109,4 ton = 1,6 (aproximadamente)
+
+Como não é possível fazer 0,6 de uma viagem, precisamos arredondar para cima e concluir que serão necessárias 2 viagens para transportar toda a areia.
+
+3. Cálculo do tempo de carregamento:
+- Taxa de carregamento: 1,5 m³/h
+- Volume do caminhão: 10 m³
+- Tempo de carregamento: 10 m³ / 1,5 m³/h = 6,67 h (ou 400 minutos)
+- Tempo de carregamento por viagem: 400 minutos x 2 = 800 minutos
+
+4. Cálculo do tempo de transporte:
+- Distância a ser percorrida: 7 km
+- Velocidade de transporte: 30 km/h
+- Tempo de transporte por viagem: 7 km / 30 km/h = 0,23 h (ou 13,8 minutos)
+- Tempo total de transporte: 0,23 h x 2 = 0,46 h (ou 27,6 minutos)
+
+5. Cálculo do tempo de descarregamento:
+- Tempo de descarregamento por viagem: 3 minutos x 2 = 6 minutos
+
+6. Cálculo do tempo total:
+- Tempo total por viagem: 800 minutos + 27,6 minutos + 6 minutos = 833,6 minutos
+- Tempo total para as 2 viagens: 833,6 minutos x 2 = 1667,2 minutos (ou 27,8 horas)
+
+7. Cálculo do custo total:
+- Custo do caminhão: S 25/h x 27,8 h x 2 = S 1390
+- Custo do motorista: $ 18/h x 27,8 h x 2 = $ 1004,4
+- Custo dos trabalhadores: $ 15/h x 2 x 27,8 h x 2 = $ 834
+- Custo total: S 1390 + $ 1004,4 + $ 834 = S 3228,4
+
+8. Cálculo do custo/unidade de transporte:
+- Custo total: S 3228,4
+- Quantidade de areia transportada: 175 ton
+- Custo/unidade de transporte: S 3228,4 / 175 ton = S 18,47/ton
+
+Portanto, o tempo total de transporte é de 27,8 horas, o custo total é de S 3228,4 e o custo/unidade de transporte é de S 18,47/ton.
+
