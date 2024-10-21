@@ -3,10 +3,11 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import os
 
 driver = webdriver.Chrome()
 
-url = "Url do PDF ou Pergunta"
+url = "https://www.passeidireto.com/pergunta/136710640/voce-trabalha-em-uma-transportadora-e-recebeu-um-pedido-no-qual-175-toneladas-de"
 driver.get(url)
 
 wait = WebDriverWait(driver, 60)
@@ -76,9 +77,13 @@ else:
     filename = None
 
 if filename and all_texts:
+    if os.path.exists(filename):
+        print(f"O arquivo '{filename}' já existe. Ele será sobrescrito.")
+
     with open(filename, "w", encoding="utf-8") as file:
         for i, text in enumerate(all_texts, start=1):
             file.write(f"Resposta {i}:\n{text}\n\n")
+
     print(f"Extração de texto concluída. O conteúdo foi salvo em '{filename}'.")
 else:
     print("Nenhum conteúdo extraído.")

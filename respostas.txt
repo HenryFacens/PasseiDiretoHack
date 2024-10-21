@@ -1,46 +1,37 @@
 Resposta 1:
-Para calcular o tempo total de transporte, precisamos primeiro calcular a quantidade de viagens que o caminhão fará para transportar toda a areia.
+Para calcular o tempo total de transporte, precisamos determinar quantas viagens serão necessárias para transportar as 175 toneladas de areia. 
 
-1. Cálculo da capacidade do caminhão:
-- Volume do caminhão: 10m x 2,5m x 2,5m = 62,5 m³
-- Peso máximo que o caminhão pode transportar: 62,5 m³ x 1,75 ton/m³ = 109,4 ton
+Primeiro, precisamos calcular o volume total de areia que será transportado: 
 
-2. Cálculo da quantidade de viagens:
-- Quantidade de areia a ser transportada: 175 ton
-- Quantidade de areia por viagem: 109,4 ton
-- Quantidade de viagens: 175 ton / 109,4 ton = 1,6 (aproximadamente)
+175 toneladas / 1,75 ton/m³ = 100 m³ 
 
-Como não é possível fazer 0,6 de uma viagem, precisamos arredondar para cima e concluir que serão necessárias 2 viagens para transportar toda a areia.
+Em seguida, precisamos determinar quantos metros cúbicos de areia cabem em cada viagem: 
 
-3. Cálculo do tempo de carregamento:
-- Taxa de carregamento: 1,5 m³/h
-- Volume do caminhão: 10 m³
-- Tempo de carregamento: 10 m³ / 1,5 m³/h = 6,67 h (ou 400 minutos)
-- Tempo de carregamento por viagem: 400 minutos x 2 = 800 minutos
+10 m³ (capacidade do caminhão) - 1,5 m³/h x 0,75 h (tempo de carregamento) = 8,25 m³ 
 
-4. Cálculo do tempo de transporte:
-- Distância a ser percorrida: 7 km
-- Velocidade de transporte: 30 km/h
-- Tempo de transporte por viagem: 7 km / 30 km/h = 0,23 h (ou 13,8 minutos)
-- Tempo total de transporte: 0,23 h x 2 = 0,46 h (ou 27,6 minutos)
+Agora podemos calcular quantas viagens serão necessárias: 
 
-5. Cálculo do tempo de descarregamento:
-- Tempo de descarregamento por viagem: 3 minutos x 2 = 6 minutos
+100 m³ / 8,25 m³ por viagem = 12,12 viagens 
 
-6. Cálculo do tempo total:
-- Tempo total por viagem: 800 minutos + 27,6 minutos + 6 minutos = 833,6 minutos
-- Tempo total para as 2 viagens: 833,6 minutos x 2 = 1667,2 minutos (ou 27,8 horas)
+Como não é possível fazer 0,12 de uma viagem, precisamos arredondar para cima e concluir que serão necessárias 13 viagens. 
 
-7. Cálculo do custo total:
-- Custo do caminhão: S 25/h x 27,8 h x 2 = S 1390
-- Custo do motorista: $ 18/h x 27,8 h x 2 = $ 1004,4
-- Custo dos trabalhadores: $ 15/h x 2 x 27,8 h x 2 = $ 834
-- Custo total: S 1390 + $ 1004,4 + $ 834 = S 3228,4
+O tempo total de transporte será: 
 
-8. Cálculo do custo/unidade de transporte:
-- Custo total: S 3228,4
-- Quantidade de areia transportada: 175 ton
-- Custo/unidade de transporte: S 3228,4 / 175 ton = S 18,47/ton
+Tempo de ida: 7 km / 30 km/h = 0,23 h (13,8 minutos) 
+Tempo de volta: 7 km / 40 km/h = 0,18 h (10,8 minutos) 
+Tempo de descarga: 3 minutos 
+Tempo total por viagem: 0,23 h + 0,18 h + 0,75 h + 0,05 h = 1,21 h (72,6 minutos) 
+Tempo total de transporte: 13 viagens x 1,21 h por viagem = 15,73 horas (943,8 minutos) 
 
-Portanto, o tempo total de transporte é de 27,8 horas, o custo total é de S 3228,4 e o custo/unidade de transporte é de S 18,47/ton.
+Para calcular o custo total do transporte, precisamos considerar o custo do caminhão, do motorista e dos trabalhadores. 
+
+Custo do caminhão: 15,73 h x $ 25/h = $ 393,25 
+Custo do motorista: 15,73 h x $ 18/h = $ 282,14 
+Custo dos trabalhadores: 13 viagens x 2 trabalhadores x 0,75 h por viagem x $ 15/h = $ 526,88 
+
+Custo total do transporte: $ 393,25 + $ 282,14 + $ 526,88 = $ 1.202,27 
+
+Finalmente, para calcular o custo por unidade de transporte, dividimos o custo total pelo volume total transportado: 
+
+Custo por unidade de transporte: $ 1.202,27 / 100 m³ = $ 12,02/m³
 
